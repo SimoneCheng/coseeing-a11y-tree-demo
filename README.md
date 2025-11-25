@@ -1,4 +1,4 @@
-# a11y-chart-react
+# coseeing-a11y-tree-demo
 
 This is a demo project to show accessibility charts and deploy `vite+react+react-router-dom` on github-pages.
 [Page Link](https://simonecheng.github.io/coseeing-a11y-tree-demo)
