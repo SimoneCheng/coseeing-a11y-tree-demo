@@ -6,9 +6,7 @@ const Header = () => {
 	return (
 		<header className='fixed inset-x-0 z-40 bg-teal-PRIMARY'>
 			<Container className='flex items-center py-12'>
-				<Link to='/' title='回首頁'>
-					<img src={Logo} className='' alt='Coseeing logo' />
-				</Link>
+				<img src={Logo} className='' alt='Coseeing logo' />
 			</Container>
 		</header>
 	);

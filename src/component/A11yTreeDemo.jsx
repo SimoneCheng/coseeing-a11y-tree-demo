@@ -61,7 +61,7 @@ function A11yTreeDemo() {
 	return (
 		<div className="max-w-6xl mx-auto p-6">
 			<h1 className="text-3xl font-bold mb-4">
-				Accessibility Tree Demo
+				114 年數位無障礙課程 demo
 			</h1>
 			<p className="text-gray-600 mb-8">
 				展示不同元素在 accessibility tree 中的呈現方式
