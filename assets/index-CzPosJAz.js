@@ -114,10 +114,9 @@ Error generating stack: `+i.message+`
 </div>`,children:[x.jsx("div",{role:"button",className:"inline-block px-4 py-2 bg-purple-500 text-white rounded cursor-pointer",children:"送出"}),x.jsx(Pe,{type:"error",children:'雖然有 role="button"，但無法用 Tab 聚焦。應該直接使用 <button> 元素或加上 tabIndex。'})]})]})}function yy(){_.useState(!1);const[e,t]=_.useState(""),n=()=>{t("項目已刪除"),setTimeout(()=>t(""),3e3)};return x.jsxs("div",{className:"space-y-6",children:[x.jsxs(Ee,{title:"✅ 動態通知 + 適當的 role",code:`<div
   role="status"
   aria-live="polite"
-  aria-atomic="true"
 >
   {notification}
-</div>`,children:[x.jsxs("div",{children:[x.jsx("button",{onClick:n,className:"px-4 py-2 bg-red-500 text-white rounded hover:bg-red-600",children:"刪除項目"}),x.jsx("div",{role:"status","aria-live":"polite","aria-atomic":"true",className:`mt-3 px-4 py-2 rounded border transition-opacity ${e?"bg-green-100 text-green-800 border-green-300 opacity-100":"opacity-0 h-0 overflow-hidden"}`,children:e||" "})]}),x.jsx(Pe,{children:'aria-live="polite" 在使用者操作完成後通知、aria-atomic="true" 完整讀出整個區域內容。螢幕閱讀器會自動讀出通知訊息。'})]}),x.jsxs(Ee,{title:"✅ 表單群組與錯誤提示",code:`<fieldset>
+</div>`,children:[x.jsxs("div",{children:[x.jsx("button",{onClick:n,className:"px-4 py-2 bg-red-500 text-white rounded hover:bg-red-600",children:"刪除項目"}),x.jsx("div",{role:"status","aria-live":"polite","aria-atomic":"true",className:`mt-3 px-4 py-2 rounded border transition-opacity ${e?"bg-green-100 text-green-800 border-green-300 opacity-100":"opacity-0 h-0 overflow-hidden"}`,children:e||" "})]}),x.jsx(Pe,{children:'aria-live="polite" 在使用者操作完成後通知。螢幕閱讀器會自動讀出通知訊息。'})]}),x.jsxs(Ee,{title:"✅ 表單群組與錯誤提示",code:`<fieldset>
   <legend>個人資訊</legend>
   <input
     aria-invalid="true"
